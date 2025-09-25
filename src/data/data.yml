@@ -1,0 +1,61 @@
+persona:
+  firstname: "Nombre"
+  lastname: "Apellido Placeholder"
+  title: "Rol Profesional / Especialidad"
+  company: "Entidad Actual / Última Experiencia"
+  picture: "placeholder_imagen.png"
+
+contacts:
+  "":
+    text: "123 456 7890"
+  "󰇮":
+    link: "mailto:usuario@dominio.com"
+    text: "correo_de_ejemplo@dominio.com"
+  "":
+    link: "https://www.linkedin.com/in/usuario-ejemplo"
+    text: "linkedin.com/in/usuario-ejemplo"
+  "":
+    link: "https://github.com/repositorio-demo"
+    text: "github.com/repositorio-demo"
+
+skills:
+  - Tecnología A (Ej. JavaScript)
+  - Tecnología B (Ej. Python)
+  - Base de Datos (Ej. PostgreSQL)
+  - Nube (Ej. AWS/Azure/GCP)
+  - Herramientas (Ej. Git/Docker)
+
+languages:
+  - Idioma 1 (nativo)
+  - Idioma 2 (avanzado)
+
+hobbies:
+  - Pasatiempo A
+  - Pasatiempo B
+  - Pasatiempo C
+
+education:
+  Universidad de la Ciudad:
+    title: "Título de Grado Obtenido"
+    from: "Ago 2015"
+    to: "Jun 2020"
+  Instituto Técnico Superior:
+    title: "Título Secundario/Técnico"
+    from: "Ene 2010"
+    to: "Dic 2014"
+
+projects:
+  Proyecto Core - Aplicación Web:
+    description: "Plataforma [Tipo de Plataforma] diseñada para [Objetivo]. Utilizando [Stack Tecnológico]."
+    date: "2024"
+  Librería de Datos:
+    description: "Herramienta Open Source enfocada en [Funcionalidad] y distribuida mediante [Plataforma]."
+    date: "2023"
+
+certificates:
+  Certificación de Proveedor Nube:
+    date: "2025"
+    company: "AWS/Microsoft/Google"
+  Certificación de Metodología Ágil:
+    date: "2024"
+    company: "Scrum Alliance / PMI"
