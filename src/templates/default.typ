@@ -61,15 +61,17 @@
       width: 100%,
       inset: (left: 2em, top: 2em, bottom: 2em),
     )[
-      #align(
-        center,
-        block(
-          stroke: 2pt + utils.colors.navy-blue,
-          clip: true,
-          width: 4cm,
-          height: 5cm,
-        )[#image(fit: "cover", width: 100%, "../images/" + info.picture)],
-      )
+      #if "picture" in info [
+        #align(
+          center,
+          block(
+            stroke: 2pt + utils.colors.navy-blue,
+            clip: true,
+            width: 4cm,
+            height: 5cm,
+          )[#image(fit: "cover", width: 100%, "../images/" + info.picture)],
+        )
+      ]
 
       #block(inset: (left: 1em))[
         = Contacto
